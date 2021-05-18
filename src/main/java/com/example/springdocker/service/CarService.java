@@ -26,7 +26,7 @@ public class CarService {
         return repository.findAll();
     }
 
-    public void saveNewCar(Car car) {
+    public void saveNewCars(Car car) {
         repository.save(car);
     }
 
