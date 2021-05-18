@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 public class Car {
     String id;
     String brand;
-    String model;
     boolean european;
+    boolean fast;
 
 }

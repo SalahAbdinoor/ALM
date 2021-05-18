@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Service
 public class CarService {
+
     private final CarRepository repository;
 
     public List<Car> getCars() {
@@ -32,11 +33,12 @@ public class CarService {
 
     public List<String> getEuropeanCars() {
         // hämtar alla Cars som vi kan laga
-        List<Car> europeanCars = repository.FindCarByEuropean(true);
+        List<Car> europeanCars = repository.findCarByEuropean(true);
 
         // returnerar endast Cars branden i en lista
         return europeanCars.stream()
-                .map(food -> food.getBrand())
+                .map(cars -> cars.getBrand())
                 .collect(Collectors.toList());
     }
+
 }

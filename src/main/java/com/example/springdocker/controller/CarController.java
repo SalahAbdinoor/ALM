@@ -10,14 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-/**
- * Created by Salah Abdinoor
- * 5/18/2021
- * 4:15 AM
- * spring-docker-demo
- * Copyright: MIT
- */
-
 @RequiredArgsConstructor
 @RestController
 public class CarController {
@@ -37,5 +29,7 @@ public class CarController {
     public List<String> getEuropeanCars() {
         return service.getEuropeanCars();
     }
+
+
 }
 

@@ -15,6 +15,6 @@ import java.util.List;
 @Repository
 public interface CarRepository extends MongoRepository<Car, String> {
 
-    List<Car> FindCarByEuropean(boolean isEuropean);
+    List<Car> findCarByEuropean(boolean isEuropean);
     
 }
