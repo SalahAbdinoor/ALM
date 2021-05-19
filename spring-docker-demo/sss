@@ -1,0 +1,41 @@
+[33mcommit 79323d27280db682bd3025f03ac3684ecd13591e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Salah Abdinoor <Salah.abdinoor@hotmail.com>
+Date:   Tue May 18 04:36:37 2021 +0200
+
+    Programmet är klart och fungerande
+
+[33mcommit 9ef99d274e890d6e6aab923fe5368ea0bbc71ae5[m
+Author: Salah Abdinoor <Salah.abdinoor@hotmail.com>
+Date:   Tue May 18 04:19:29 2021 +0200
+
+    controller: CarController Added
+
+[33mcommit 2b7abe890873732f239bca38f69cc3aa433f8f22[m
+Author: Salah Abdinoor <Salah.abdinoor@hotmail.com>
+Date:   Tue May 18 04:14:41 2021 +0200
+
+    service: CarService Added
+
+[33mcommit 05dffd2f0ad778414e64b57ebf8c9cb156afecf3[m
+Author: Salah Abdinoor <Salah.abdinoor@hotmail.com>
+Date:   Tue May 18 04:09:25 2021 +0200
+
+    repository: CarRepository added
+
+[33mcommit 60b3326ee067f9a87a152b7368cad830f86fb8ea[m
+Author: Salah Abdinoor <Salah.abdinoor@hotmail.com>
+Date:   Tue May 18 04:05:17 2021 +0200
+
+    Model: Car added
+
+[33mcommit 8af6d0a6095478f777026c828a455af4fb8775aa[m
+Author: JontesGitHub <johannes.svensson97@gmail.com>
+Date:   Mon May 10 11:43:35 2021 +0200
+
+    fixed new method and changed name
+
+[33mcommit 5c87e7506e8ca4c50570bb4f92e19f6ef01befbd[m
+Author: JontesGitHub <johannes.svensson97@gmail.com>
+Date:   Tue Apr 27 15:31:46 2021 +0200
+
+    init setup
