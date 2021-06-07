@@ -1,4 +1,4 @@
-name: Push & Uplaod
+name: Push And Upload
 
 on:
   workflow_dispatch:
@@ -33,7 +33,7 @@ jobs:
               with:
                 context: .
                 push: true
-                tags: salahabdinoor/soloproject:latest
+                tags: ${{ secrets.DOCKERHUB_USERNAME }}/soloproject:latest
 
        - name: Upload Artifact
         uses: actions/upload-artifact@v2
