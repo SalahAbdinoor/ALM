@@ -31,7 +31,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/soloproject:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/soloproject2:latest
 
       - name: Upload jar file
         uses: actions/upload-artifact@v2
